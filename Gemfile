@@ -3,12 +3,13 @@ source "https://rubygems.org"
 gemspec
 
 gem "appraisal"
-gem "rails", "4.2.4"
+gem "rails", "~> 6.0.3"
 gem "pry"
+gem "ember-cli-rails-assets", "~> 0.6.2", git: "https://github.com/simplepractice/ember-cli-rails-assets"
 
 group :development, :test do
-  gem "high_voltage", "~> 3.0.0"
-  gem "rspec-rails", "~> 3.5.0"
+  gem "high_voltage", "~> 3.1.2"
+  gem "rspec-rails", "~> 4.0.1"
 end
 
 group :test do
