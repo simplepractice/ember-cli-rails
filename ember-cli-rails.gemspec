@@ -17,7 +17,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "ember-cli-rails-assets", "~> 0.6.2"
   spec.add_dependency "railties", ">= 3.2"
-  spec.add_dependency "cocaine", "~> 0.5.8"
+  spec.add_dependency "terrapin", "~> 0.6.0"
   spec.add_dependency "html_page", "~> 0.1.0"
   spec.add_development_dependency "generator_spec", "~> 0.9.0"
 end
